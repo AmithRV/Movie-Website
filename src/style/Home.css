@@ -1,0 +1,43 @@
+.body
+{
+    background-color: black;
+    color: white;
+    height: 90vh;
+    padding: 20px 10px ;
+    margin-bottom: -80px;
+}
+
+.body_container
+{
+    border: 1px solid orange;
+    height: 70vh;
+    overflow: scroll;
+}
+
+.content
+{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 10px;
+}
+
+@media(max-width:768px)
+{
+    .body
+    {
+        max-width: 650px;
+        margin-top: -35px;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.home
+{
+    height: 100vh;
+}

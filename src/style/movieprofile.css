@@ -1,0 +1,202 @@
+.details
+{
+    background-color: black;
+    height: 100vh;
+    width: 100hw;
+    overflow: scroll;
+}
+.details_wrap
+{
+    background-color: black;
+    height: 100vw;
+    width: 100hw;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.movie_name
+{
+    font-size: 3rem;
+}
+
+.detail_header
+{
+    display: flex;
+}
+
+.rating
+{
+    display: flex;
+    margin-left: 40em;
+}
+
+.rating div
+{
+    padding-left : 20px ;
+    padding-right: 20px;
+    font-weight: 600;
+    color: var(--ipt-on-baseAlt-textSecondary-color,rgba(255,255,255,0.7));;
+}
+
+.IMDb_RATING .YOUR_RATING .POPULARITY
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.title_data
+{
+    display: flex;
+    padding-left: 4px;
+}
+
+.title_data div
+{
+    padding-right: 20px;
+}
+
+.sub_block
+{
+    width: 80%;
+    height:40px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 10px;
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.empt
+{
+    flex: 0.70;
+}
+
+.sub_block div
+{
+    font-weight: 800;
+}
+
+.movie_poster
+{
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+    width: 80%;
+}
+
+.movie_wraper
+{
+    display: grid;
+    place-items: center;
+}
+
+.movie_wraper img
+{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.type_wrap button
+{
+    margin: 20px;
+    background: transparent;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+    border-color: #ffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.plot
+{
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+.writer
+{
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+.director
+{
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+.stars
+{
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+
+@media(max-width:768px)
+{
+    .details
+    {
+        background-color: black;
+        height: 100vh;
+        width: 100hw;
+        overflow: scroll;
+    }
+    .details_wrap
+    {
+        background-color: black;
+        margin-left: 4em;
+    }
+    .detail_header
+    {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .rating
+    {
+        margin-left:-20px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .title_data
+    {
+        margin-top: 10px;
+    }
+
+    .empt
+    {
+        flex: 0;
+    }
+    .sub_block
+    {
+        justify-content: center;
+        padding:10px ;
+    }
+    .sub_block div
+    {
+        padding: 10px;
+    }
+}

@@ -82,14 +82,20 @@
     .header_wrapper
     {
         max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        
     }
     .header_logo
     {
-        margin-left: 10px;
+        margin-left: -20em;
     }
     .header_searchContainer
     {
-        max-width: 120px;
+        margin-left: 40px;
+        max-width: 250px;
+        margin-top: -5em;
     }
     .header_menuitems
     {

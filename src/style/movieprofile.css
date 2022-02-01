@@ -16,7 +16,11 @@
 
 .movie_name
 {
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 100%;
+    margin-left: -20px;
+    overflow: hidden;
 }
 
 .detail_header
@@ -177,9 +181,10 @@
 
     .rating
     {
-        margin-left:-20px;
+        margin-left:-40px;
         margin-top: 40px;
         display: flex;
+        justify-content: center;
     }
     .title_data
     {

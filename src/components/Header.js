@@ -1,18 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import '../style/header.css';
-import { Redirect } from "react-router-dom";
 
 function Header()
 {
     const [input, setInput] = useState('');
-
-    const search = (a) =>
-    {
-        a.preventDefault();
-        console.log('inp : ',input);
-        window.location.href = `/details/movie/${input}`;
-    }
+    let result ;
 
     return(
         <div className="header_wrapper">
@@ -22,9 +15,9 @@ function Header()
 
             <div className='header_search'>
                 <div className='header_searchContainer'>
-                    <form >
+                    <form action={`/details/movie/${input}`} method='GET' >
                         <input  className='searchinput' placeholder='Search ...' type='text' value={input} onChange={ e=>setInput(e.target.value)} />
-                            <button className='searchsubmit' type='submit' onClick={search} >search</button> 
+                        <button className='searchsubmit' type='submit'  >search</button> 
                     </form>
                 </div>
             </div>

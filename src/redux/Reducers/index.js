@@ -1,3 +1,4 @@
+/*
 import { combineReducers } from 'redux';
 import setdataReducer from './setdataReducer.js';
 
@@ -9,3 +10,4 @@ const rootReducer = combineReducers
 );
 
 export default rootReducer;
+*/

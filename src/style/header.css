@@ -33,7 +33,7 @@
     padding-left: 10px ;
 }
 
-.header_searchContainer > input
+.searchinput
 {
     background-color: transparent;
     border: none;
@@ -43,6 +43,10 @@
     color: white;
 }
 
+.searchsubmit
+{
+    display: none;
+}
 .header_searchContainer > input:focus
 {
     outline: none;

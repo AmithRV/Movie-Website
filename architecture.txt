@@ -1,0 +1,2 @@
+1. create a redux store
+2. set it with the data

@@ -1,3 +1,4 @@
+/*
 import axios from "axios";
 
 const initialState =  []
@@ -19,3 +20,4 @@ const setdataReducer = ( state = initialState, action)=>
 }
 
 export default setdataReducer;
+*/

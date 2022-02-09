@@ -38,7 +38,7 @@ function MovieProfile(props)
                 
                 <div className='sub_block'>
                     <div className='empt'></div>
-                    <div className='cast'>Cast & crew</div>
+                    <div className='cast'>Cast and crew</div>
                     <div>User Reviw</div>
                 </div>
 

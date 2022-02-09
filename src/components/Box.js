@@ -13,7 +13,7 @@ function Box(props)
 
     } )
     return(
-        <Link exact to = {`/details/movie/${props.data}`}>
+        <Link to = {`/details/movie/${props.data}`}>
             <div className='box'>
                 <div className='box_container'>
                     <img className='image_box' src={poster} alt='poster'/>

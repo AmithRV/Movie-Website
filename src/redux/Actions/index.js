@@ -1,3 +1,4 @@
+/*
 export const GetData = (data)=>
 {
     return{
@@ -5,3 +6,4 @@ export const GetData = (data)=>
         payload:data
     }
 }
+*/
